@@ -1,6 +1,41 @@
 .post-header {
-    display: flex;
+    display:flex;
+    border:5px solid green;
+    justify-content: space-between;
+    align-items: center;
 }
-.left-up {
-    display-content: space-around
+.left-group {
+    display: flex;
+
+}
+.left-up-loner {
+    border:5px solid black;
+}
+.left-up-two {
+    border: 5px solid grey;
+    gap: none;
+    padding:none;
+    
+}
+.right-up {
+    border: 5px solid pink;
+}
+
+.post-body {
+    
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.three-icons {
+    display: flex;
+    gap: 15px;
+    border:5px solid blue;
+}
+.body-bookmark {
+    border: 5px solid orange;
+    
 }
