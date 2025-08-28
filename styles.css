@@ -1,5 +1,6 @@
 body {
     align-items: center;
+    background-color: black;
     
 }
 
@@ -7,6 +8,8 @@ body {
     width: 600px;
     height: 800px;
     align-items: center;
+    background-color: white;
+    margin: auto;
 }
 
 .post-header {
@@ -22,26 +25,24 @@ body {
 }
 .left-up-loner {
     border:5px solid black;
+    font-size: 40px;
 }
 .left-up-two {
     border: 5px solid grey;
     display: flex;
     flex-direction: column;
-    margin: none;
+    margin: 0;
+}
+.letra-rigoberto {
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
 }
 .right-up {
     border: 5px solid pink;
 }
-.post-image {
-    width:100%;
-    height: 100%;
-    display: block;
-}
-
 .post-image img {
-    width:100%;
-    height: 100%;
-    display: block;
+    /*max-width: 100%;*/
+    width: 600px;
 }
 
 .post-body {
@@ -57,6 +58,7 @@ body {
     display: flex;
     gap: 15px;
     border:5px solid blue;
+    font-size: 20px;
 }
 .body-bookmark {
     border: 5px solid orange;
