@@ -3,12 +3,6 @@
 body {
     align-items: center;
     background-color: black;
-    /* font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100; */
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -28,7 +22,6 @@ body {
 
 .post-header {
     display:flex;
-    /*border:5px solid green;*/
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
@@ -38,13 +31,11 @@ body {
     align-items: center;
 
 }
-.left-up-loner {
-    /*border:5px solid black;*/
+.html-five-icon {
     font-size: 30px;
     margin-right: 5px;
 }
-.left-up-two {
-    /*border: 5px solid grey;*/
+.html-text-and-rigoberto-text {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -57,18 +48,14 @@ body {
     margin: 0px 0px 5px 0px;
     font-size: 20px;
 }
-.right-up {
-    /*border: 5px solid pink;*/
+.hamburger-icon {
     font-size: 30px;
 }
 .post-image img {
-    /*max-width: 100%;*/
     width: 600px;
 }
 
-.post-body {
-    
-    /*border: 5px solid red;*/
+.post-body {    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,11 +65,9 @@ body {
 .three-icons {
     display: flex;
     gap: 5px;
-    /*border:5px solid blue;*/
     font-size: 30px;
 }
 .body-bookmark {
-    /*border: 5px solid orange;*/
     font-size: 30px;
 }
 
